@@ -4,15 +4,14 @@ load_dotenv()
 
 import os
 import streamlit as st
-from langchain import LLMChain, PromptTemplate
+from langchain.chains import LLMChain
 from langchain.llms import OpenAI
-from langchain.chains import SequentialChain
 from langchain.prompts import load_prompt
 from pathlib import Path
 from sql_execution import execute_df_query
 
+
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
-# root_dir = [ p for p in Path(__file__).parents if p.parts[-1] == 'yt-samples'][0]
 root_dir = os.path.dirname(os.path.abspath(__file__))
 print(root_dir)
 st.title("SQL Assistance")
