@@ -16,25 +16,6 @@ root_dir = [ p for p in Path(__file__).parents if p.parts[-1] == 'yt-samples'][0
 st.title("LangChain AI blog assistant")
 topic = st.text_input("enter your blog topic here")
 
-# title_prompt_template = PromptTemplate(
-#     input_variables=["topic"],
-#     template='''
-#     you are a blog writer. You will be given a topic and you need to provide an interesting blog title for the topic. The length of title should be no more that 50 charaters. the title should be able to create curiosity and inspire people to read the complete blog. return only the title name.
-#     topic: {topic}
-#     title:
-#     '''
-# )
-
-# script_prompt_template = PromptTemplate(
-#     input_variables=["title"],
-#     template='''
-#     you are a blog writer. You will be given a blog title and you need to write a blog script for the title. your audience will be students and people working as software engineers. keep formal tone. script should be in less than 1000 words. only returns the blog script.
-#     title: {title}
-#     blog script:
-#     '''
-# )
-
-
 title_prompt_template = load_prompt(f'{root_dir}/prompts/title_prompt.yaml')
 script_prompt_template = load_prompt(f'{root_dir}/prompts/script_prompt.yaml')
 

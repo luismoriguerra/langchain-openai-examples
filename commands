@@ -10,4 +10,8 @@ streamlit run ./app_simple_prompt.py
 
 streamlit run ./app_blog_writer.py
 
+streamlit run ./app_sql_assitance.py
 
+
+pip install snowflake
+pip install pandas
