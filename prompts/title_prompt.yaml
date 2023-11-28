@@ -1,0 +1,9 @@
+_type: prompt
+input_variables:
+  ["topic"]
+template:
+  '''
+  you are a blog writer. You will be given a topic and you need to provide an interesting blog title for the topic. The length of title should be no more that 50 charaters. the title should be able to create curiosity and inspire people to read the complete blog. return only the title name.
+  topic: {topic}
+  title:
+  '''

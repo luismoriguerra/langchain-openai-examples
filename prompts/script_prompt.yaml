@@ -1,0 +1,9 @@
+_type: prompt
+input_variables:
+  ["title"]
+template:
+  '''
+  you are a blog writer. You will be given a blog title and you need to write a blog script for the title. your audience will be students and people working as software engineers. keep formal tone. script should be in less than 1000 words. only returns the blog script.
+  title: {title}
+  blog script:
+  '''

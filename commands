@@ -6,4 +6,8 @@ pip install streamlit langchain openai
 
 streamlit run ./app.py
 
+streamlit run ./app_simple_prompt.py
+
+streamlit run ./app_blog_writer.py
+
 
