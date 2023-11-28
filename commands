@@ -1,0 +1,9 @@
+
+python3 -m venv yt-exmaples
+source yt-exmaples/bin/activate
+
+pip install streamlit langchain openai
+
+streamlit run ./app.py
+
+
