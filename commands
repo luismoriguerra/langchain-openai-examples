@@ -1,6 +1,6 @@
 
-python3 -m venv yt-exmaples
-source yt-exmaples/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 
 pip install streamlit langchain openai
 
@@ -16,3 +16,11 @@ streamlit run ./app_blog_writer.py
 streamlit run ./app_sql_assitance.py
 
 streamlit run ./app_langchain_memory.py
+
+streamlit run ./app_vector_search.py
+
+
+pip install langchain openai streamlit faiss-cpu tiktoken
+
+pip install faiss-cpu
+
