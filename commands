@@ -4,6 +4,9 @@ source yt-exmaples/bin/activate
 
 pip install streamlit langchain openai
 
+pip install snowflake
+pip install pandas
+
 streamlit run ./app.py
 
 streamlit run ./app_simple_prompt.py
@@ -12,6 +15,4 @@ streamlit run ./app_blog_writer.py
 
 streamlit run ./app_sql_assitance.py
 
-
-pip install snowflake
-pip install pandas
+streamlit run ./app_langchain_memory.py
