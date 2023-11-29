@@ -17,6 +17,7 @@ streamlit run ./app_sql_assitance.py
 
 streamlit run ./app_langchain_memory.py
 
+python create_vector_db.py
 streamlit run ./app_vector_search.py
 
 

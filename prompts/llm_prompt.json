@@ -4,5 +4,5 @@
         "docs",
         "user_prompt"
     ],
-    "template_path": "/Users/luismori/luismoriguerraprojects/langchainprojects/yt-samples/prompts/prompt_template.txt"
+    "template_path": "./prompts/prompt_template.txt"
 }
