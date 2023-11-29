@@ -25,3 +25,6 @@ pip install langchain openai streamlit faiss-cpu tiktoken
 
 pip install faiss-cpu
 
+pip install langchain transformers huggingface_hub bitsandbytes
+
+python app_huggingface.py
